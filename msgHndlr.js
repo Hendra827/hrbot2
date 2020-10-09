@@ -39,7 +39,7 @@ module.exports = msgHandler = async (client, message) => {
         const mess = {
             wait: '[ WAIT ] Sedang di proses⏳ silahkan tunggu sebentar',
             error: {
-                St: '[❗] Kirim gambar dengan caption *!sticker* atau tag gambar yang sudah dikirim',
+                St: '[❗] Kirim gambar dengan caption *#sticker* atau tag gambar yang sudah dikirim',
                 Qm: '[❗] Terjadi kesalahan, mungkin themenya tidak tersedia!',
                 Yt3: '[❗] Terjadi kesalahan, tidak dapat meng konversi ke mp3!',
                 Yt4: '[❗] Terjadi kesalahan, mungkin error di sebabkan oleh sistem.',
